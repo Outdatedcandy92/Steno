@@ -1,0 +1,60 @@
+body {
+    font-family: 'Source Code Pro', monospace;
+    background-color: #f0f0f0;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.upload-section {
+    margin-bottom: 20px;
+}
+
+#imageInput, #messageInput {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    width: 80%;
+    max-width: 400px;
+}
+
+#encodeButton, #decodeButton {
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+#encodeButton:hover, #decodeButton:hover {
+    background-color: #0056b3;
+}
+
+.result-section {
+    margin-top: 20px;
+}
+
+#imageCanvas {
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+}
+
+#decodedMessage {
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #007BFF;
+}

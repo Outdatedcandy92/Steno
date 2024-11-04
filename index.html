@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Steganography Tool</title>
+    <link rel="stylesheet" href="src/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Steganography Tool</h1>
+        <div class="upload-section">
+            <input type="file" id="imageInput" accept="image/*">
+            <textarea id="messageInput" placeholder="Enter your message here..."></textarea>
+            <button id="encodeButton">Encode Message</button>
+            <button id="decodeButton">Decode Message</button>
+        </div>
+        <div class="result-section">
+            <canvas id="imageCanvas"></canvas>
+            <p id="decodedMessage"></p>
+        </div>
+    </div>
+    <script src="src/script.js"></script>
+</body>
+</html>
